@@ -1,0 +1,100 @@
+
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(210deg, #3a1818 0%, #b33939 100%);
+}
+
+p {
+    color: rgb(204, 174, 104);
+}
+
+.nav-link{
+    color: rgb(204, 174, 104);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(204, 174, 104);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(118, 23, 23);
+}
+
+.sidebar {
+    color: rgb(204, 174, 104);
+    background: linear-gradient(90deg, #3a1818 0%, #b33939 100%)
+}
+
+.card {
+    background: linear-gradient(120deg, #3a1818 0%, #b33939 100%);
+    color: rgb(204, 174, 104);
+}
+
+.card a {
+    color: rgb(204, 174, 104);
+}
+
+.slide-text {
+    color: rgb(204, 174, 104);
+    margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(220deg, #3a1818 0%, #b33939 100%)
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-text a {
+    color: rgb(204, 174, 104);
+}
+
